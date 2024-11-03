@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KillOnPress", "KillOnPress.csproj", "{40689C0C-E295-4A12-8139-0B257E58E538}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{40689C0C-E295-4A12-8139-0B257E58E538}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40689C0C-E295-4A12-8139-0B257E58E538}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40689C0C-E295-4A12-8139-0B257E58E538}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40689C0C-E295-4A12-8139-0B257E58E538}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6A9A635B-539A-4907-B22B-599870C415F2}
+	EndGlobalSection
+EndGlobal

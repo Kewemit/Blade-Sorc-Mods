@@ -1,0 +1,49 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\tomar\\source\\repos\\KillOnPress\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{40689C0C-E295-4A12-8139-0B257E58E538}|KillOnPress.csproj|c:\\users\\tomar\\source\\repos\\killonpress\\cinematickill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40689C0C-E295-4A12-8139-0B257E58E538}|KillOnPress.csproj|solutionrelative:cinematickill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CinematicKill.cs",
+              "DocumentMoniker": "C:\\Users\\tomar\\source\\repos\\KillOnPress\\CinematicKill.cs",
+              "RelativeDocumentMoniker": "CinematicKill.cs",
+              "ToolTip": "C:\\Users\\tomar\\source\\repos\\KillOnPress\\CinematicKill.cs",
+              "RelativeToolTip": "CinematicKill.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAA1wEsAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T13:50:30.505Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

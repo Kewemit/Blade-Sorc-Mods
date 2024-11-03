@@ -1,0 +1,6 @@
+C:\Program Files (x86)\Steam\steamapps\common\Blade & Sorcery\BladeAndSorcery_Data\StreamingAssets\Mods\CinematicKill\KillOnPress.dll
+C:\Program Files (x86)\Steam\steamapps\common\Blade & Sorcery\BladeAndSorcery_Data\StreamingAssets\Mods\CinematicKill\KillOnPress.pdb
+C:\Users\tomar\source\repos\KillOnPress\obj\Debug\KillOnPress.csproj.AssemblyReference.cache
+C:\Users\tomar\source\repos\KillOnPress\obj\Debug\KillOnPress.csproj.CoreCompileInputs.cache
+C:\Users\tomar\source\repos\KillOnPress\obj\Debug\KillOnPress.dll
+C:\Users\tomar\source\repos\KillOnPress\obj\Debug\KillOnPress.pdb
