@@ -21,31 +21,48 @@ namespace KillDef
 
     public class EnemyUpdate : MonoBehaviour
     {
-        public void Update() 
+        public static Side side;
+        public void Update()
         {
-            
-                if (Player.local != null && EnemySelect.enabledMod && EnemySelect.enabledHand == "Right")
-                {
-                    if (!Player.local.creature.handRight.caster.allowSpellWheel) return;
-                    Player.local.creature.handRight.caster.DisableSpellWheel(handler: this);
-                }
-                else
-                {
-                    if (Player.local.creature.handRight.caster.allowSpellWheel) return;
-                    Player.local.creature.handRight.caster.AllowSpellWheel(handler: this);
-                }
+            if(EnemySelect.enabledHand == "Left") 
+            {
+                Player.local.creature.handRight.caster.AllowSpellWheel(handler: this);
+                side = Side.Left;
+                LeftHandMethod();
+            }
+            else if(EnemySelect.enabledHand == "Right") 
+            {
+                Player.local.creature.handLeft.caster.AllowSpellWheel(handler: this);
+                side = Side.Right;
+                RightHandMethod();
+            }
+        }
+        private void LeftHandMethod() 
+        {
+            if (Player.local != null && EnemySelect.enabledMod && EnemySelect.enabledHand == "Left")
+            {
+                if (!Player.local.creature.handLeft.caster.allowSpellWheel) return;
+                Player.local.creature.handLeft.caster.DisableSpellWheel(handler: this);
+            }
+            else
+            {
+                if (Player.local.creature.handLeft.caster.allowSpellWheel) return;
+                Player.local.creature.handLeft.caster.AllowSpellWheel(handler: this);
 
-                if (Player.local != null && EnemySelect.enabledMod && EnemySelect.enabledHand == "Left")
-                {
-                    if (!Player.local.creature.handLeft.caster.allowSpellWheel) return;
-                    Player.local.creature.handLeft.caster.DisableSpellWheel(handler: this);
-                }
-                else
-                {
-                    if (Player.local.creature.handLeft.caster.allowSpellWheel) return;
-                    Player.local.creature.handLeft.caster.AllowSpellWheel(handler: this);
-
-                }
+            }
+        }
+        private void RightHandMethod()
+        {
+            if (Player.local != null && EnemySelect.enabledMod) // && EnemySelect.enabledHand == "Right")
+            {
+              Player.local.creature.handRight.caster.DisableSpellWheel(handler: this);
+                if (!Player.local.creature.handRight.caster.allowSpellWheel) return;
+            }
+            else
+            {
+                Player.local.creature.handRight.caster.AllowSpellWheel(handler: this);
+                if (Player.local.creature.handRight.caster.allowSpellWheel) return;
+            }
         }
     }
     public class EnemySelect : ThunderScript
@@ -59,32 +76,24 @@ namespace KillDef
         [ModOptionTooltip("Enables or disables the mod depending on choice")]
         [ModOption(defaultValueIndex = 0)]
         public static bool enabledMod = false;
-
-        [SerializeField] public static string enabledHand = "Right";
+        
+        [SerializeField] public static string enabledHand;
         public static ModOptionString[] handOption = {
-        new ModOptionString("Right", "Right"),
         new ModOptionString("Left", "Left"),
-
-       // new ModOptionString
-
-    };
-
+        new ModOptionString("Right", "Right"),
+         };
         [ModOption("Hand side", "Which hand to use", valueSourceName: nameof(handOption), defaultValueIndex = 1)]
-        [ModOptionSave]
-        private static void HandOption(string value)
+            [ModOptionSave]
+            private static void HandOption(string value)
         {
             enabledHand = value;
         }
-        
-
-
 
         public override void ScriptEnable()
         {
             base.ScriptEnable();
             EventManager.onCreatureHit += EventManager_onCreatureHit;
-            EventManager.onPossess += EventManager_onPossess;           
-
+            EventManager.onPossess += EventManager_onPossess;
         }
 
         private void EventManager_onPossess(Creature creature, EventTime eventTime)
@@ -95,20 +104,21 @@ namespace KillDef
 
         private void EventManager_onCreatureHit(Creature creature, CollisionInstance collisionInstance, EventTime eventTime)
         {
-            if (creature != null && !creature.isPlayer && enabledMod && enabledHand == "Right")
+            if (creature != null && !creature.isPlayer && enabledMod)// && enabledHand == "Right")
             {
-                if (PlayerControl.GetHand(Side.Right).alternateUsePressed && creature.currentHealth > 0)
+                if (PlayerControl.GetHand(EnemyUpdate.side).alternateUsePressed && creature.currentHealth > 0)
                 {
                     creature.Kill();
                 }
             }
-            else if(creature != null && !creature.isPlayer && enabledMod && enabledHand == "Left") 
+            /*else if(creature != null && !creature.isPlayer && enabledMod && enabledHand == "Left") 
             {
                 if (PlayerControl.GetHand(Side.Left).alternateUsePressed && creature.currentHealth > 0)
                 {
                     creature.Kill();
                 }
             }
+            */
             else
             {
                 return;

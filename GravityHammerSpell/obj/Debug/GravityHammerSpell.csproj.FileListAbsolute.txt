@@ -1,0 +1,8 @@
+C:\UnityRepo\Blade-Sorc-Mods\GravityHammerSpell\bin\Debug\GravityHammerSpell.dll
+C:\UnityRepo\Blade-Sorc-Mods\GravityHammerSpell\bin\Debug\GravityHammerSpell.pdb
+C:\UnityRepo\Blade-Sorc-Mods\GravityHammerSpell\obj\Debug\GravityHammerSpell.csproj.AssemblyReference.cache
+C:\UnityRepo\Blade-Sorc-Mods\GravityHammerSpell\obj\Debug\GravityHammerSpell.csproj.CoreCompileInputs.cache
+C:\UnityRepo\Blade-Sorc-Mods\GravityHammerSpell\obj\Debug\GravityHammerSpell.dll
+C:\UnityRepo\Blade-Sorc-Mods\GravityHammerSpell\obj\Debug\GravityHammerSpell.pdb
+C:\Program Files (x86)\Steam\steamapps\common\Blade & Sorcery\BladeAndSorcery_Data\StreamingAssets\Mods\GravHam\GravityHammerSpell.dll
+C:\Program Files (x86)\Steam\steamapps\common\Blade & Sorcery\BladeAndSorcery_Data\StreamingAssets\Mods\GravHam\GravityHammerSpell.pdb

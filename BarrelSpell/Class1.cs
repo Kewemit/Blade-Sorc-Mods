@@ -5,6 +5,8 @@ using System.IO;
 using System.Xml.Linq;
 using ThunderRoad;
 using UnityEngine;
+using UnityEngine.InputSystem;
+using UnityEngine.Windows;
 
 namespace BarrelSpell
 {
@@ -42,17 +44,8 @@ namespace BarrelSpell
 
 
         public void Update()
-        {
-            Debug.Log(spawnItemID);
+        {            
             
-            if (barrelScript.enabledMod)
-            {
-                // No need for activeTrans here as it is handled in the ShootBarrel method
-            }
-            else
-            {
-                return;
-            }
         }
 
         public void ShootBarrel(Transform firingHand)
@@ -65,18 +58,11 @@ namespace BarrelSpell
 
             hasSpawned = true; // Set to true to prevent further spawns until reset
             //string itemId = "Barrel1";
-            Catalog.GetData<ItemData>(spawnItemID).SpawnAsync(item =>
+            Catalog.GetData<ItemData>("anvil").SpawnAsync(item =>
             {
             if (item != null)
             {
-                //string tagged = item.tag = "TempTag";
-                   // if(tagged == "TempTag") 
-                   // {
-                      // StartCoroutine(removeAfter());
-                      //  Destroy(item);
-                   // }
-
-                    Rigidbody itemRB = item.GetComponent<Rigidbody>();
+                Rigidbody itemRB = item.GetComponent<Rigidbody>();
                 if (itemRB == null)
                 {
                     itemRB = item.gameObject.AddComponent<Rigidbody>();
@@ -116,15 +102,11 @@ namespace BarrelSpell
             hasSpawned = false; // Reset the spawn flag
             Debug.Log("Barrel can be spawned again.");
         }
-       // IEnumerator removeAfter() 
-       // {
-       //     yield return new WaitForSeconds(5);
-        //}
     }
 
     public class barrelScript : ThunderScript
     {
-        string checkSpell = "ItemSummonSpell";
+        string checkSpell = "Fire";//"ItemSummonSpell";
 
         public static ModOptionBool[] booleanOptions =
         {
@@ -147,10 +129,11 @@ namespace BarrelSpell
         {
             if (spellId == checkSpell)
             {
-                bool isPressed = PlayerControl.GetHand(Side.Right).castPressed;
+                bool isPressed = UnityEngine.InputSystem.Keyboard.current[Key.Y].wasPressedThisFrame; //PlayerControl.GetHand(Side.Right).castPressed;
+                if (isPressed) UnityEngine.Debug.Log("pressed");
                 Transform firingHand = (side == Side.Right) ? Player.local.handRight.transform : Player.local.handLeft.transform;
                 //Debug.Log("SpellSelected");
-                barrelSpell barrel = creature.gameObject.GetComponent<barrelSpell>();
+                var barrel = creature.gameObject.GetComponent<barrelSpell>();
                 if (barrel != null && isPressed)
                 {
                     barrel.ShootBarrel(firingHand);
@@ -164,6 +147,8 @@ namespace BarrelSpell
         private void EventManager_onPossess(Creature creature, EventTime eventTime)
         {
             creature.gameObject.AddComponent<barrelSpell>();
+
+
         }   
         public override void ScriptDisable()
         {

@@ -1,0 +1,6 @@
+C:\Program Files (x86)\Steam\steamapps\common\Blade & Sorcery\BladeAndSorcery_Data\StreamingAssets\Mods\PunchTester\ClassLibrary1.dll
+C:\Program Files (x86)\Steam\steamapps\common\Blade & Sorcery\BladeAndSorcery_Data\StreamingAssets\Mods\PunchTester\ClassLibrary1.pdb
+C:\UnityRepo\Blade-Sorc-Mods\AddForcePunch\ClassLibrary1\obj\Debug\ClassLibrary1.csproj.AssemblyReference.cache
+C:\UnityRepo\Blade-Sorc-Mods\AddForcePunch\ClassLibrary1\obj\Debug\ClassLibrary1.csproj.CoreCompileInputs.cache
+C:\UnityRepo\Blade-Sorc-Mods\AddForcePunch\ClassLibrary1\obj\Debug\ClassLibrary1.dll
+C:\UnityRepo\Blade-Sorc-Mods\AddForcePunch\ClassLibrary1\obj\Debug\ClassLibrary1.pdb

@@ -1,13 +1,19 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\tomar\\source\\repos\\BarrelSpell\\",
+  "WorkspaceRootPath": "C:\\UnityRepo\\Blade-Sorc-Mods\\BarrelSpell\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CAFD8A42-A607-4E21-939A-A8523C2BD8E0}|BarrelSpell.csproj|c:\\users\\tomar\\source\\repos\\barrelspell\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CAFD8A42-A607-4E21-939A-A8523C2BD8E0}|BarrelSpell.csproj|C:\\UnityRepo\\Blade-Sorc-Mods\\BarrelSpell\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CAFD8A42-A607-4E21-939A-A8523C2BD8E0}|BarrelSpell.csproj|solutionrelative:class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tomar\\source\\repos\\Healthbar\\HealthBar\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B861A5E6-6867-4928-BAF6-A3203347956D}|..\\GravityHammerSpell\\GravityHammerSpell.csproj|c:\\unityrepo\\blade-sorc-mods\\gravityhammerspell\\gravityhamspell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|GravityHammerSpell||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B861A5E6-6867-4928-BAF6-A3203347956D}|..\\GravityHammerSpell\\GravityHammerSpell.csproj|c:\\unityrepo\\blade-sorc-mods\\gravityhammerspell\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|a54ad834-9219-4aa6-b589-607af21c3e26"
     }
   ],
   "DocumentGroupContainers": [
@@ -17,7 +23,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -33,33 +39,41 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GravityHammerSpell",
+              "DocumentMoniker": "C:\\UnityRepo\\Blade-Sorc-Mods\\GravityHammerSpell\\GravityHammerSpell.csproj",
+              "RelativeDocumentMoniker": "..\\GravityHammerSpell\\GravityHammerSpell.csproj",
+              "ToolTip": "C:\\UnityRepo\\Blade-Sorc-Mods\\GravityHammerSpell\\GravityHammerSpell.csproj",
+              "RelativeToolTip": "..\\GravityHammerSpell\\GravityHammerSpell.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-06T21:12:04.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\tomar\\source\\repos\\Healthbar\\HealthBar\\Class1.cs",
-              "RelativeDocumentMoniker": "..\\Healthbar\\HealthBar\\Class1.cs",
-              "ToolTip": "C:\\Users\\tomar\\source\\repos\\Healthbar\\HealthBar\\Class1.cs",
-              "RelativeToolTip": "..\\Healthbar\\HealthBar\\Class1.cs",
-              "ViewState": "AgIAAJMAAAAAAAAAAAAAADMAAAATAAAAAAAAAA==",
+              "Title": "GravityHamSpell.cs",
+              "DocumentMoniker": "C:\\UnityRepo\\Blade-Sorc-Mods\\GravityHammerSpell\\GravityHamSpell.cs",
+              "RelativeDocumentMoniker": "..\\GravityHammerSpell\\GravityHamSpell.cs",
+              "ToolTip": "C:\\UnityRepo\\Blade-Sorc-Mods\\GravityHammerSpell\\GravityHamSpell.cs",
+              "RelativeToolTip": "..\\GravityHammerSpell\\GravityHamSpell.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T14:27:25.631Z",
+              "WhenOpened": "2024-11-05T13:25:19.546Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\tomar\\source\\repos\\BarrelSpell\\Class1.cs",
+              "DocumentMoniker": "C:\\UnityRepo\\Blade-Sorc-Mods\\BarrelSpell\\Class1.cs",
               "RelativeDocumentMoniker": "Class1.cs",
-              "ToolTip": "C:\\Users\\tomar\\source\\repos\\BarrelSpell\\Class1.cs",
+              "ToolTip": "C:\\UnityRepo\\Blade-Sorc-Mods\\BarrelSpell\\Class1.cs",
               "RelativeToolTip": "Class1.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAgwC0AAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAIAAAAAAAAAAAAAxwJMAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-01T20:16:25.502Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
             }
           ]
         }

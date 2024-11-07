@@ -4,3 +4,7 @@ C:\Users\tomar\source\repos\BarrelSpell\obj\Debug\BarrelSpell.csproj.AssemblyRef
 C:\Users\tomar\source\repos\BarrelSpell\obj\Debug\BarrelSpell.csproj.CoreCompileInputs.cache
 C:\Users\tomar\source\repos\BarrelSpell\obj\Debug\BarrelSpell.dll
 C:\Users\tomar\source\repos\BarrelSpell\obj\Debug\BarrelSpell.pdb
+C:\UnityRepo\Blade-Sorc-Mods\BarrelSpell\obj\Debug\BarrelSpell.csproj.AssemblyReference.cache
+C:\UnityRepo\Blade-Sorc-Mods\BarrelSpell\obj\Debug\BarrelSpell.csproj.CoreCompileInputs.cache
+C:\UnityRepo\Blade-Sorc-Mods\BarrelSpell\obj\Debug\BarrelSpell.dll
+C:\UnityRepo\Blade-Sorc-Mods\BarrelSpell\obj\Debug\BarrelSpell.pdb

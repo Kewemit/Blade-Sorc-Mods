@@ -4,3 +4,7 @@ C:\Users\tomar\source\repos\KillOnPress\obj\Debug\KillOnPress.csproj.AssemblyRef
 C:\Users\tomar\source\repos\KillOnPress\obj\Debug\KillOnPress.csproj.CoreCompileInputs.cache
 C:\Users\tomar\source\repos\KillOnPress\obj\Debug\KillOnPress.dll
 C:\Users\tomar\source\repos\KillOnPress\obj\Debug\KillOnPress.pdb
+C:\UnityRepo\Blade-Sorc-Mods\KillOnPress\obj\Debug\KillOnPress.csproj.AssemblyReference.cache
+C:\UnityRepo\Blade-Sorc-Mods\KillOnPress\obj\Debug\KillOnPress.csproj.CoreCompileInputs.cache
+C:\UnityRepo\Blade-Sorc-Mods\KillOnPress\obj\Debug\KillOnPress.dll
+C:\UnityRepo\Blade-Sorc-Mods\KillOnPress\obj\Debug\KillOnPress.pdb
