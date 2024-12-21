@@ -6,9 +6,9 @@ Below you'll find details about each mod, including descriptions, links, and vis
 - [Autoloader](#autoloader)
 - [Healthbar Mod](#healthbar-mod)
 - [Cinematic Kills](#cinematic-kills)
-- [Mod profiles](#mod-profiles)
+- [Mod Profiles](#mod-profiles)
 
-## 🗺️ Autoloader:
+## Autoloader:
 ### Description:
 This mod allows you to select a map in the book to load on startup. It also ensures you can still adjust your height, unlike the launch options.
 
@@ -18,7 +18,7 @@ This mod allows you to select a map in the book to load on startup. It also ensu
 ![MapLoad](https://github.com/user-attachments/assets/38655069-5932-43b9-b987-31176f2a51ee)
 
 
-## ❤️ Healthbar mod
+## Healthbar mod
 ### Description:
 Adds healthbars above enemies to display their current health.
 
@@ -28,7 +28,7 @@ Adds healthbars above enemies to display their current health.
 ![HealthBar](https://github.com/user-attachments/assets/eb479c76-4f27-438c-8b62-8632bf5b80d8)
 
 
-## 🎥 Cinematic Kills:
+## Cinematic Kills:
 ### Description:
 Holding the **alternative use** button allows you to kill enemies instantly to create cinematic-like kills. 
 
